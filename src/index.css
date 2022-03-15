@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --darkGray: rgb(41, 46, 58);
+  --lightBlue: rgb(146, 204, 205);
+  --cyan: rgb(54, 72, 129);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/*Header*/
+header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 140px 15px 0px;
+  width: 100%;
+  background-color: var(--darkGray);
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  background-color: var(--lightBlue);
+  padding: 0px 5px 0px 80px;
+  font-size: 50px;
+}
+
+h1 a {
+  color: var(--darkGray);
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  list-style: none;
+  padding-left: 10px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav a {
+  color: var(--lightBlue);
+  border-bottom: solid var(--lightBlue);
+  padding: 0px 10px;
+  font-weight: bold;
+  padding-bottom: 2px;
+  font-size: 19px;
+}
+/*end Header*/
+
+/*Hero*/
+.hero {
+  width: 100%;
+  height: 150px;
+  background-image: url("./assets/hero/heroImage.jpg");
+  display: flex;
+  background-size: cover;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.hero div {
+  margin: 20px 200px 0px 0px;
+  padding: 10px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: var(--darkGray);
+  color: var(--lightBlue);
+}
+/*end Hero*/
