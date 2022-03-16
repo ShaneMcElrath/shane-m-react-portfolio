@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Nav() {
+function Nav({selectedSection, setSelectedSection}) {
   return (
     <div>
       <header>
@@ -10,16 +10,32 @@ function Nav() {
         <nav>
           <ul>
             <li>
-              <a href="#about-me">About Me</a>
+              <a 
+                href="#about-me" 
+                className={selectedSection == 'AboutMe' && 'selected'} 
+                onClick={() => setSelectedSection('AboutMe')}
+              >About Me</a>
             </li>
             <li>
-              <a href="portfolio">Portfolio</a>
+              <a 
+                href="#portfolio"
+                className={selectedSection == 'Portfolio' && 'selected'} 
+                onClick={() => setSelectedSection('Portfolio')}
+                >Portfolio</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a 
+                href="#contact"
+                className={selectedSection == 'Contact' && 'selected'} 
+                onClick={() => setSelectedSection('Contact')}
+                >Contact</a>
             </li>
             <li>
-              <a href="#resume">Resume</a>
+              <a 
+                href="#resume"
+                className={selectedSection == 'Resume' && 'selected'} 
+                onClick={() => setSelectedSection('Resume')}
+              >Resume</a>
             </li>
           </ul>
         </nav>
