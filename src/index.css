@@ -52,11 +52,14 @@ header a {
 
 header nav a {
   color: var(--lightBlue);
-  border-bottom: solid var(--lightBlue);
   padding: 0px 10px;
   font-weight: bold;
   padding-bottom: 2px;
   font-size: 19px;
+}
+
+header nav .selected {
+  border-bottom: solid var(--lightBlue);
 }
 /*end Header*/
 
@@ -192,3 +195,53 @@ section p {
 }
 /*end Color Transition*/
 /*end Work specific*/
+
+/* Contact Form */
+form div {
+  border: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+form label {
+  margin-right: 5px;
+  font-size:x-large;          
+}
+
+form input {
+  height: 40px;
+  border: solid 2px var(--darkGray);
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: large;
+  width: 300px;
+}
+
+form textarea {
+  resize: none;
+  border: solid 2px var(--darkGray);
+  border-radius: 10px;
+  font-size: large;
+  height: 200px;
+  width: 500px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 10px;
+}
+
+form button {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: x-large;
+  background-color: var(--cyan);
+  border: none;
+  padding: 4px;
+  color: white;
+  border-radius: 5px;
+  border: solid 3px var(--cyan);
+}
+
+form button:hover {
+  background-color: white;
+  color: var(--cyan);
+}
+/* end Contact Form */
