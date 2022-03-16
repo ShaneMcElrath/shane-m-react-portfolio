@@ -94,7 +94,7 @@ section {
 }
 
 section h2 {
-  width: 197px;
+  width: 210px;
   font-size: 50px;
   text-align: right;
   padding-right: 10px;
@@ -245,3 +245,11 @@ form button:hover {
   color: var(--cyan);
 }
 /* end Contact Form */
+
+/* Resume */
+#Resume div {
+  font-size: x-large;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+/* end Resume */

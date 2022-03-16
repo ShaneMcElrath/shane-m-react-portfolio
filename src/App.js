@@ -3,7 +3,7 @@ import Nav from './components/Nav';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Resume from './components/Contact';
+import Resume from './components/Resume';
 import { useState } from 'react';
 
 function App() {
