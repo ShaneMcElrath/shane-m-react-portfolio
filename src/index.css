@@ -116,12 +116,17 @@ section p {
   font-size: 18px;
   line-height: 1.5;
 }
+
+#about-me img {
+  height: 200px;
+}
 /*end About-me specific*/
 
 /*Work specific*/
 .projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #work .project {
@@ -129,31 +134,23 @@ section p {
   padding: 0px;
   display: flex;
   align-items: flex-end;
+  margin: 0px 20px 20px 0px;
+  height: 200px;
+  flex-basis: 500px;
+  flex-grow: 1;
+  background-size: 1500px;
 }
 
-#work .run-buddy {
-  flex-grow: 1;
-  flex-basis: 1200px;
-  height: 400px;
+#work .first {
   background-image: url("./assets/Portfolio/elonCoinScreenshot.png");
-  background-size: 1300px;
 }
 
-#work .robot-gladiators {
-  flex-basis: 300px;
-  flex-grow: 1;
-  margin: 16px 8px 0px 0px;
-  height: 150px;
+#work .second {
   background-image: url("./assets/Portfolio/runBuddyScreenShot.png");
-  background-size: 600px;
-  background-position-y: -50px;
+
 }
 
-#work .coming-soon {
-  flex-basis: 300px;
-  flex-grow: 1;
-  margin: 16px 0px 0px 8px;
-  height: 150px;
+#work .third {
   background-image: url("./assets/Portfolio/Shellter.png");
 }
 
@@ -168,30 +165,30 @@ section p {
 }
 
 /*Color Transition*/
-.project a {
-  display: flex;
-  flex-grow: 1;
+.color-shift a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+.github {
+  margin-top: 150px;
 }
 
 .color-shift {
   flex-grow: 1;
-  background: var(--darkGray);
+  background: rgb(191, 197, 206);
   border: none;
-  opacity: .5;
+  opacity: 0;
   transition: opacity .5s;
+  height: 190px;
+  width: 100%;
+  padding-left: 0px;
 }
 
-.run-buddy .color-shift {
-  height: 390px;
-}
 
-.robot-gladiators .color-shift,
-.coming-soon .color-shift {
-  height: 140px;
-}
 
 .color-shift:hover {
-  opacity: 0;
+  opacity: .8;
 }
 /*end Color Transition*/
 /*end Work specific*/
