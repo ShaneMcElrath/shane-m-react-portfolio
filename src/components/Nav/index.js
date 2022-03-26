@@ -40,7 +40,7 @@ function Nav({selectedSection, setSelectedSection}) {
           </ul>
         </nav>
       </header>
-      <div class="hero">
+      <div className="hero">
         <div>Web Developer</div>
       </div>
     </div>
