@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/shane-m-react-portfolio/static/css/main.415d085c.css",
+    "main.js": "/shane-m-react-portfolio/static/js/main.d8c0ce81.js",
+    "static/js/787.61b8c817.chunk.js": "/shane-m-react-portfolio/static/js/787.61b8c817.chunk.js",
+    "static/media/runBuddyScreenShot.png": "/shane-m-react-portfolio/static/media/runBuddyScreenShot.ddf0bbdc4ebc4d117088.png",
+    "static/media/Shellter.png": "/shane-m-react-portfolio/static/media/Shellter.fb3eb67239173f8b9a9c.png",
+    "static/media/ProfileMe.JPEG": "/shane-m-react-portfolio/static/media/ProfileMe.2f1b010fa770e140478e.JPEG",
+    "static/media/elonCoinScreenshot.png": "/shane-m-react-portfolio/static/media/elonCoinScreenshot.775d7ea03b68cdd6e124.png",
+    "static/media/heroImage.jpg": "/shane-m-react-portfolio/static/media/heroImage.0d8db44cb32741d752cc.jpg",
+    "index.html": "/shane-m-react-portfolio/index.html",
+    "main.415d085c.css.map": "/shane-m-react-portfolio/static/css/main.415d085c.css.map",
+    "main.d8c0ce81.js.map": "/shane-m-react-portfolio/static/js/main.d8c0ce81.js.map",
+    "787.61b8c817.chunk.js.map": "/shane-m-react-portfolio/static/js/787.61b8c817.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.415d085c.css",
+    "static/js/main.d8c0ce81.js"
+  ]
+}
